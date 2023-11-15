@@ -1,6 +1,24 @@
 body{
     background-color: #6C757D;
 }
+.hrDeco{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.indexNavigator{
+    position: fixed;
+    top: 0;
+    padding-left: 10px;
+    transform: translateY(19%);
+    text-align: center;
+    width: 190px;
+    background-color: #D3CA8D;
+}
+.indexNavigator a{
+    color: black;
+    font-size: 20px;
+}
 
 .elerhetosegDiv{
     background-color: #343A40;
@@ -72,4 +90,42 @@ body{
     background-color: #343A40;
     padding: 30px;
     border-radius: 100px 0px 100px 0px;
+}
+
+.voltegyszerDiv{
+    width: 80%;
+    margin: 0 auto;
+}
+#tanitokepzo{
+    background-color: #311d1f;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+}
+#tanitokepzo h1{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 50px;
+    color: #fcf5a8;
+}
+#tanitokepzo p{
+    text-align: justify;
+    font-size: 20px;
+    color: #fcf5a8;
+}
+
+#testneveles{
+    background-color: #1f3864;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+}
+#testneveles h1{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 50px;
+    color: #bbd5ed;
+}
+#testneveles p{
+    text-align: justify;
+    font-size: 20px;
+    color: #bbd5ed;
 }
