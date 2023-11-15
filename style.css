@@ -129,3 +129,8 @@ body{
     font-size: 20px;
     color: #bbd5ed;
 }
+.size-50{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
