@@ -73,3 +73,9 @@ body{
     padding: 30px;
     border-radius: 100px 0px 100px 0px;
 }
+
+.size-50{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
