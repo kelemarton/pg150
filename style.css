@@ -1,0 +1,75 @@
+body{
+    background-color: #6C757D;
+}
+
+.elerhetosegDiv{
+    background-color: #343A40;
+    height: 50px;
+    width: 100%;
+    color: white;
+
+}
+.elerhetosegDiv div{
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+    display: inline-block;
+}
+.elerhetosegIcon{
+    height: 30px;
+    padding-left: 10px;
+}
+.facebookDiv{
+    float: right;
+}
+.facebook{
+    margin-right: 10px;
+}
+.facebook img{
+    height: 30px;
+}
+
+.navbar{
+    background-color: #D3CA8D !important;
+    width: 100%;
+}
+.navImg{
+    height: 70px;
+}
+.float-right{
+    position: absolute;
+    right: 0;
+    background-color: #D3CA8D;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.headerDiv{
+    background-color: #6C757D;
+
+}
+.headerImg{
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.headerImg img{
+    height: 300px;
+}
+.headerText{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.szovegDiv{
+    width: 80%;
+    margin: 0 auto;
+}
+.szovegDiv p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    background-color: #343A40;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+}
