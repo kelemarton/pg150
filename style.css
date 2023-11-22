@@ -8,16 +8,26 @@ body{
 }
 .indexNavigator{
     position: fixed;
-    top: 0;
-    padding-left: 10px;
-    transform: translateY(19%);
+    bottom: 0;
     text-align: center;
-    width: 190px;
-    background-color: #D3CA8D;
+    width: 100%;
+    height: 30px;
+    background-color: #d3ca8d;
+    display: flex;
 }
 .indexNavigator a{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 20px;
+    text-decoration: none;
+}
+.indexNavigator div{
+    margin: 0 auto;
+    border-radius: 0px;
+    transition: 1s;
+}
+.indexNavigator div:hover{
+    background-color: #fcf5a8;
+    border-radius: 15px;
 }
 
 .elerhetosegDiv{
@@ -89,12 +99,20 @@ body{
     color: white;
     background-color: #343A40;
     padding: 30px;
-    border-radius: 100px 0px 100px 0px;
+    border-radius: 0px 100px 0px 100px;
 }
 
 .voltegyszerDiv{
     width: 80%;
     margin: 0 auto;
+}
+.voltegyszerDiv div{
+    transition: 1s;
+    overflow-y: hidden;
+}
+.voltegyszerDiv div:hover{
+    transform: scale(1.02);
+    box-shadow: black 10px 10px;
 }
 #tanitokepzo{
     background-color: #311d1f;
@@ -128,6 +146,38 @@ body{
     text-align: justify;
     font-size: 20px;
     color: #bbd5ed;
+}
+#petofigimnazium{
+    background-color: #385723;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+}
+#petofigimnazium h1{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 50px;
+    color: #ccffcc;
+}
+#petofigimnazium p{
+    text-align: justify;
+    font-size: 20px;
+    color: #ccffcc;
+}
+#gepeszeti{
+    background-color: #636466;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+}
+#gepeszeti h1{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 50px;
+    color: #dcddde;
+}
+#gepeszeti p{
+    text-align: justify;
+    font-size: 20px;
+    color: #dcddde;
 }
 .size-50{
     display: block;
