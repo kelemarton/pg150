@@ -130,6 +130,33 @@ body{
     font-size: 20px;
     color: #fcf5a8;
 }
+@media (max-width: 768px) {
+    .korButton1{
+        display: inline-block;
+        color: #fcf5a8;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px) {
+    .korButton1{
+        display: inline-block;
+        color: #fcf5a8;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 0px 20px 0px 20px;
+        transition: all 0.5s linear;
+    }
+}
+.korButton1:hover{
+    border-radius: 20px 0px 20px 0px;
+    background-color: #636466;
+}
 
 #testneveles{
     background-color: #1f3864;
@@ -147,6 +174,34 @@ body{
     font-size: 20px;
     color: #bbd5ed;
 }
+@media (max-width: 768px) {
+    .korButton2{
+        display: inline-block;
+        color: #bbd5ed;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px) {
+    .korButton2{
+        display: inline-block;
+        color: #bbd5ed;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 0px 20px 0px 20px;
+        transition: all 0.5s linear;
+    }
+}
+.korButton2:hover{
+    border-radius: 20px 0px 20px 0px;
+    background-color: #636466;
+}
+
 #petofigimnazium{
     background-color: #385723;
     padding: 30px;
@@ -163,6 +218,34 @@ body{
     font-size: 20px;
     color: #ccffcc;
 }
+@media (max-width: 768px) {
+    .korButton3{
+        display: inline-block;
+        color: #ccffcc;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px) {
+    .korButton3{
+        display: inline-block;
+        color: #ccffcc;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 0px 20px 0px 20px;
+        transition: all 0.5s linear;
+    }
+}
+.korButton3:hover{
+    border-radius: 20px 0px 20px 0px;
+    background-color: #636466;
+}
+
 #gepeszeti{
     background-color: #636466;
     padding: 30px;
@@ -179,8 +262,121 @@ body{
     font-size: 20px;
     color: #dcddde;
 }
+@media (max-width: 768px) {
+    .korButton4{
+        display: inline-block;
+        color: #dcddde;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px) {
+    .korButton4{
+        display: inline-block;
+        color: #dcddde;
+        text-decoration: none;
+        background-color: #343A40;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 0px 20px 0px 20px;
+        transition: all 0.5s linear;
+    }
+}
+.korButton4:hover{
+    border-radius: 20px 0px 20px 0px;
+    background-color: #636466;
+}
+
 .size-50{
     display: block;
     margin: auto;
     width: 70%;
 }
+
+#GDPRLogo{
+    min-width: 150px;
+    min-height: 150px;
+    display: 12%;
+    width: 12%;
+}
+
+.GDPR{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    background-color: #343A40;
+    padding: 30px;
+    border-radius: 0px 100px 0px 100px;
+}
+
+.szovegDiv1{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.GDPR H1{
+    display: inline-block;
+}
+
+.imgDivAnimation{
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.imgDivAnimation:hover{
+    transform: scale(1.02);
+    box-shadow: black 10px 10px;
+}
+.imgDivAnimation p{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: underline;
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    transform: translateY(180px);
+}
+#kepeslapokImg{
+    background-image: url(images/gallery/képeslapok/képeslap-5.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px 50px 0px;
+}
+#fenykepekImg{
+    background-image: url(images/gallery/fényképek/fénykép-1.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px 50px 0px;
+}
+#tablokImg{
+    background-image: url(images/gallery/tabló.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px 50px 0px;
+}
+#egyebekImg{
+    background-image: url(images/gallery/egyebek/egyebek-3.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px 50px 0px;
+}
+
+
+
+
+
+
+
+
+
