@@ -312,7 +312,21 @@ body{
     border-radius: 0px 100px 0px 100px;
 }
 
+.GDPR2{
+    font-size: 20px;
+    color: white;
+    background-color: #343A40;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
 .szovegDiv1{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.szovegDiv2{
     width: 80%;
     margin: 0 auto;
 }
@@ -372,11 +386,25 @@ body{
     border-radius: 50px 0px 50px 0px;
 }
 
+.fleft{
+    float: left;
+}
 
+.fright{
+    float: right;
+}
 
-
-
-
-
-
-
+#GDPR2{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+.elerhetosegtext{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 100px 0px 100px 0px;
+    background-color: #343A40;
+    width: 80%;
+    margin: 0 auto;
+}
