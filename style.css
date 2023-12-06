@@ -30,6 +30,16 @@ body{
     border-radius: 15px;
 }
 
+footer{
+    background-color: #d3ca8d;
+    position: inherit;
+    bottom: 0;
+    transform: translateY(40px);
+}
+.footerStar{
+    transform: translateY(7px);
+}
+
 .elerhetosegDiv{
     background-color: #343A40;
     height: 50px;
@@ -105,13 +115,14 @@ body{
 .voltegyszerDiv{
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .voltegyszerDiv div{
     transition: 1s;
     overflow-y: hidden;
 }
 .voltegyszerDiv div:hover{
-    transform: scale(1.02);
+    transform: scale(0.98);
     box-shadow: black 10px 10px;
 }
 #tanitokepzo{
@@ -321,6 +332,13 @@ body{
     display: inline-block;
 }
 
+.galleryDiv{
+    position: absolute;
+    top: 35%;
+    bottom: 65%;
+    left: 10%;
+    right: 10%;
+}
 .imgDivAnimation{
     margin-bottom: 30px;
     transition: 0.5s;
@@ -339,6 +357,53 @@ body{
     margin: 0 auto;
     transform: translateY(180px);
 }
+.modal-content{
+    background-color: #6C757D !important;
+    color: white;
+}
+/*Modal Image Grid*/
+photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+/*Modal Image Grid*/
 #kepeslapokImg{
     background-image: url(images/gallery/képeslapok/képeslap-5.jpg);
     width: 100%;
