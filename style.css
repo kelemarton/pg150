@@ -496,3 +496,8 @@ photo-gallery {
 .pb-row {
     margin-bottom: 10px;
 }
+
+iframe{
+    margin:auto;
+    display:block;
+}
