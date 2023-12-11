@@ -316,8 +316,8 @@ body{
     font-size: 20px;
     color: white;
     background-color: #343A40;
-    padding-bottom: 17px;
-    padding-top: 17px;
+    padding: 30px;
+    border-radius: 0px 100px 0px 100px;
 }
 
 .szovegDiv1{
@@ -407,4 +407,8 @@ body{
     background-color: #343A40;
     width: 80%;
     margin: 0 auto;
+}
+
+.mar{
+    margin-top: 15px;
 }
