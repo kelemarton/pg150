@@ -38,10 +38,10 @@ body{
 }
 .footer2{
     background-color: #d3ca8d;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    bottom: 0px;
     left: 0;
-    bottom: 0;
+    right: 0;
     transform: translateY(40px);
 }
 .footerStar{
@@ -141,7 +141,7 @@ body{
 #tanitokepzo h1{
     margin-left: 20px;
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
     color: #fcf5a8;
 }
 #tanitokepzo p{
@@ -174,7 +174,7 @@ body{
 }
 .korButton1:hover{
     border-radius: 20px 0px 20px 0px;
-    background-color: #636466;
+    background-color: #6C757D;
 }
 
 #testneveles{
@@ -185,7 +185,7 @@ body{
 #testneveles h1{
     margin-left: 20px;
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
     color: #bbd5ed;
 }
 #testneveles p{
@@ -218,7 +218,7 @@ body{
 }
 .korButton2:hover{
     border-radius: 20px 0px 20px 0px;
-    background-color: #636466;
+    background-color: #6C757D;
 }
 
 #petofigimnazium{
@@ -229,7 +229,7 @@ body{
 #petofigimnazium h1{
     margin-left: 20px;
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
     color: #ccffcc;
 }
 #petofigimnazium p{
@@ -262,7 +262,7 @@ body{
 }
 .korButton3:hover{
     border-radius: 20px 0px 20px 0px;
-    background-color: #636466;
+    background-color: #6C757D;
 }
 
 #gepeszeti{
@@ -273,7 +273,7 @@ body{
 #gepeszeti h1{
     margin-left: 20px;
     text-align: left;
-    font-size: 50px;
+    font-size: 35px;
     color: #dcddde;
 }
 #gepeszeti p{
@@ -306,7 +306,7 @@ body{
 }
 .korButton4:hover{
     border-radius: 20px 0px 20px 0px;
-    background-color: #636466;
+    background-color: #6C757D;
 }
 
 .size-50{
