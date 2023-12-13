@@ -38,11 +38,10 @@ body{
 }
 .footer2{
     background-color: #d3ca8d;
-    margin-top: auto;
-    position: inherit;
-    right: 0;
+    position: fixed;
+    bottom: 0px;
     left: 0;
-    bottom: 0;
+    right: 0;
     transform: translateY(40px);
 }
 .footerStar{
