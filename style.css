@@ -38,7 +38,8 @@ body{
 }
 .footer2{
     background-color: #d3ca8d;
-    position: absolute;
+    margin-top: auto;
+    position: inherit;
     right: 0;
     left: 0;
     bottom: 0;
